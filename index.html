@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cruzadinha Amazônica</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <img src="logo.png" width="200px" />
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress-text">
+          Progresso: <span id="progressText">0/19</span>
+        </div>
+        <div class="progress-bg">
+          <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
+        <button
+          onclick="showCongratulations()"
+          style="
+            background: linear-gradient(#86efac);
+            color: #1a5f3f;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+          "
+          onmouseover="this.style.transform='scale(1.05)'"
+          onmouseout="this.style.transform='scale(1)'"
+        >
+          🎉 Ver Celebração
+        </button>
+      </div>
+
+      <div class="game-area">
+        <div class="crossword-container">
+          <div class="crossword-grid" id="crosswordGrid"></div>
+        </div>
+
+        <div class="clues-container">
+          <div class="clues-title">Dicas</div>
+
+          <div class="clues-section">
+            <h3>➡️ Horizontais</h3>
+            <div id="acrossClues"></div>
+          </div>
+
+          <div class="clues-section">
+            <h3>⬇️ Verticais</h3>
+            <div id="downClues"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
