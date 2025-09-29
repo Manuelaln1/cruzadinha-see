@@ -208,7 +208,7 @@ body {
 
 .congratulations-box {
   background: linear-gradient(white);
-  background-image: url("background2.png");
+  background-image: url("mobile.png");
   background-size: cover, 40px 40px;
   background-position: center, 0 0;
   padding: 40px;
@@ -349,3 +349,4 @@ body {
     font-size: 10px;
   }
 }
+
