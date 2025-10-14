@@ -43,7 +43,7 @@ const words = [
   },
   {
     word: "TROPICAL",
-    clue: "8. Grande área coberta por árvores e vida selvagem.
+    clue: "8. Grande área coberta por árvores e vida selvagem.",
     direction: "across",
     start: { x: 10, y: 7 },
   },
@@ -622,6 +622,7 @@ updateProgress();
     }
   }
 })();
+
 
 
 
