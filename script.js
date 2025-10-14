@@ -1,7 +1,7 @@
 const words = [
   {
     word: "SEGURANÇA",
-    clue: "1. Proteção contra perigos.",
+    clue: "1. Para evitar riscos na internet, precisamos adotar medidas de ____.",
     direction: "down",
     start: { x: 3, y: 1 },
   },
@@ -42,20 +42,20 @@ const words = [
     start: { x: 5, y: 12 },
   },
   {
-    word: "TROPICAL",
-    clue: "8. Clima quente e úmido.",
+    word: "FLORESTA",
+    clue: "8. Grande área coberta por árvores e vida selvagem",
     direction: "across",
     start: { x: 10, y: 7 },
   },
   {
     word: "LIXOELETRÔNICO",
-    clue: "9. Aparelhos descartados.",
+    clue: "9. Aparelhos eletrônicos descartados.",
     direction: "down",
     start: { x: 14, y: 6 },
   },
   {
     word: "TOXICOS",
-    clue: "10. Substâncias perigosas.",
+    clue: "10. Produtos químicos perigosos.",
     direction: "down",
     start: { x: 4, y: 18 },
   },
@@ -78,8 +78,8 @@ const words = [
     start: { x: 6, y: 24 },
   },
   {
-    word: "VILÃ",
-    clue: "14. Personagem má.",
+    word: "BITES",
+    clue: "14. Personagem má da HQ.",
     direction: "down",
     start: { x: 9, y: 18 },
   },
@@ -622,3 +622,4 @@ updateProgress();
     }
   }
 })();
+
