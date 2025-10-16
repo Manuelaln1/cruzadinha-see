@@ -78,8 +78,8 @@ const words = [
     start: { x: 6, y: 24 },
   },
   {
-    word: "BITES",
-    clue: "14. Personagem má da HQ.",
+    word: "VILÃ",
+    clue: "14. Personagem má.",
     direction: "down",
     start: { x: 9, y: 18 },
   },
@@ -622,6 +622,7 @@ updateProgress();
     }
   }
 })();
+
 
 
 
