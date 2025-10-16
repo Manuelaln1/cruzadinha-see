@@ -42,8 +42,8 @@ const words = [
     start: { x: 5, y: 12 },
   },
   {
-    word: "TROPICAL",
-    clue: "8. Grande área coberta por árvores e vida selvagem.",
+    word: "LIXEIRA",
+    clue: "8.Lugar onde se joga o lixo.",
     direction: "across",
     start: { x: 10, y: 7 },
   },
@@ -622,6 +622,7 @@ updateProgress();
     }
   }
 })();
+
 
 
 
